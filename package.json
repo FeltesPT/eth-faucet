@@ -1,0 +1,25 @@
+{
+  "name": "eth-faucet",
+  "version": "1.0.0",
+  "description": "Ethereum Faucet",
+  "author": "tiago@epiccode.dev",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && sexit 1"
+  },
+  "main": "truffle-config.js",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "truffle": "5.0.2",
+    "truffle-contract": "4.0.31",
+    "web3": "^1.3.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^4.0.48"
+  }
+}
